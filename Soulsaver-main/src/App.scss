@@ -1,0 +1,6 @@
+@import "~bootstrap/scss/bootstrap";
+// @import "custom";
+body {  
+  background: rgb(122, 160, 194);
+  background: linear-gradient(90deg, rgba(122,160,194,1) 0%, rgb(220, 234, 247) 15%, rgb(220, 234, 247) 75%, rgba(255,255,255,1) 100%);
+}

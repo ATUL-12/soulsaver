@@ -1,0 +1,91 @@
+.showAds__container {
+    padding: 5px 20px;
+    width: 100%;
+    min-height: 220px;
+    .header__row {
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .post_ad_button {
+        width: 30%;
+        padding: 5px;
+        background-color: #4588c8;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+    }
+    .post_ad_button:hover {
+        background-color: #256cad;
+    }
+    .show__ads {
+        max-height: 220px;
+        margin-top: 10px;
+        padding-right: 2px;
+        min-height: 160px;
+        .loading{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 140px;
+        }
+        .ad__labels {
+            font-weight: 600;
+            background-color: #dceaf7;
+        }
+        ul {
+            display: flex;
+            padding: 0;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            margin-bottom: 1px;
+            padding: 1px;
+            margin-right: 3px;
+
+            .button {
+                width: 30px;
+                button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    background-color: #ffcb52;
+                }
+                button:hover {
+                    background-color: #f0ad12;
+                }
+            }    
+        }
+        .ads {
+            overflow-y: scroll;
+        }
+        
+
+    }
+}
+.ads::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.ads::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+    border-radius: 5px;
+    background: #dceaf7;
+}
+
+/* Handle */
+.ads::-webkit-scrollbar-thumb {
+    background: #4588c8; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.ads::-webkit-scrollbar-thumb:hover {
+    background: #256cad; 
+}
+
